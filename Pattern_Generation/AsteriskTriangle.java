@@ -20,7 +20,8 @@ public class AsteriskTriangle{
         //Outer loop
         for(int i = 1; i <= rows; i++){
             //Inner loop
-            for(int j=1; j<=i; j++){
+            for(int j = 1; j <= i; j++){
+                //print "*" for j times
                 System.out.print("*");
             }
             System.out.println();
